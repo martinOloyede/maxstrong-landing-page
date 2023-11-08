@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  }
+  
+  body, html{
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: Hellix;
+    background: linear-gradient(7deg, #EEF5FF 0%, #FFF 99.69%);
+   }
+  
+  .entire-container{
+    max-width: 500px;
+    margin:auto;
+  }
+  
+  /*Inside-container-1 */
+  
+  .bolded{
+    font-weight:bold;
+  }
+  
+  h3, p{
+    color: #111235;
+  }
+  
+  .panel-1{
+    /*width: 390px;
+    height: 5185px; */
+    margin: auto;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px  rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+  
+  .inside-container-1{
+    width: 100%;
+    text-align:center;
+    box-sizing: border-box;
+    padding: 10px 0;  
+  }
+  
+  #workout{
+    width: 80%;
+    margin: 19px 0 5px;
+  }
+  
+  /*All Paragraph Elements in Inside-Container-1*/
+  
+  #one{
+    height: 60px;
+    margin: 5px 0 30px;
+    padding: 8px 117px;
+    font-size: 30px;
+    line-height: normal;
+    background: #fff;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+  }
+  
+  #two{
+    margin: 5px 0 40px;
+    font-size: 60px;
+    line-height: normal;
+    color:black;
+  }
+  
+  #three{
+    margin: 5px 0 20px;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  
+  /*All Paragraph Elements End*/
+  
+  .all-buttons{
+    width: 252px;
+    height:59px;
+    border-radius: 35px;
+    background: #4B5092;
+    color: white;
+    margin: 15px 0;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  /*Inside-container-2 */
+  
+  .inside-container-2{
+    width: 100%;
+    text-align:center;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  
+  #workout2{
+    width: 80%;
+    margin: 60px 0 25px;
+  }
+  
+  /*All Paragraph Elements in Inside-Container-2*/
+  
+  .inside-container-2-box{
+    background: #F2F8FF;
+    text-align:start;
+    padding: 15px;
+  }
+    
+  #four{
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 20px 0 10px;
+  }
+    
+  #five{
+    margin: 20px 0 10px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */ 
+   } 
+  
+  /*All Paragraph Elements End*/
+  
+  /*Inside-container-3 */
+  
+  .inside-container-3{
+    text-align:center;
+    box-sizing: border-box;
+    padding: 75px 0 20px;
+  }
+  
+  /*All Paragraph Elements in Inside-Container-3*/
+  
+  .inside-container-3-box{
+    width: 100%;
+    height: 942px;
+    background: linear-gradient(100deg, #BAD4FF 0%, #6487BF 100%);
+    padding: 11px;
+   
+  }
+  
+  #six{
+    margin: 80px 0 14px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  #seven{
+    margin: 17px 0 12px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 133.333% */
+  }
+  
+  #eight{
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  
+  /*All Paragraph Elements End*/
+  
+  .btn-secondary{
+    width: 252px;
+    height:59px;
+    color: #436BAA;
+    font-feature-settings: 'clig' off, 'liga' off;
+    border-radius: 35px;
+    border: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 60px 0;
+  }
+  
+  #workout3{
+     width: 395px;
+     margin: -27px;
+  }
+  
+  /*Inside-container-4 */
+  
+  .inside-container-4{
+    width: 100%;
+    text-align:center;
+    box-sizing: border-box; 
+  }
+  
+  #workout4{
+    width: 80%;
+    margin: 80px 0 40px;
+  }
+  
+  .benefit-flexbox{
+     text-align:start; 
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+  }
+  
+  .inside-container-4-box, .blue-background > h3{
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px 23px;
+  }
+  
+  .inside-container-4-box, .purple-background > h3{
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px 23px;
+  }
+  
+  /*All Paragraph Elements in Inside-Container-4*/
+  
+  .inside-container-4-box, .blue-background > p{
+    width: 300px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    padding: 20px 23px;
+    margin: -15px 0 10px;
+  }
+  
+  .inside-container-4-box, .purple-background > p{
+    width: 300px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    padding: 20px 23px;
+    margin: -15px 0 10px;
+  }
+  
+  #nine{
+    color: #111235;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+    text-align:start;
+    padding: 20px 23px;
+  }
+  
+  .blue-background{
+    width:350px;
+    height:250px;
+    border-radius:30px;
+    background: #E4F0FF;
+    padding: 16px 25px 10px;
+  }
+  
+  .purple-background{
+    width:350px;
+    height:250px;
+    border-radius:30px;
+    background: rgba(114, 122, 239, 0.10);
+    padding: 16px 5px 14px;
+  }
+  
+  /*All Paragraph Elements End*/
+  
+  .all-buttons2{
+      width: 252px;
+      height:59px;
+      border-radius: 35px;
+      background: #4B5092;
+      /* margin: 20px 0; */
+      border: none;
+      position: relative;
+      bottom: 2px;
+      left: 5px;  
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 600; 
+  }
+  
+  /*Inside-container-5 - Includes Footer*/
+  
+  #hr-line{
+  
+  }
+  
+  .inside-container-5-box{
+    width: 100%;
+    text-align:center;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  
+  #fourteen{
+     height: 50px;
+      margin: 9px 0 30px;
+      padding: 20px 117px;
+      font-size: 30px;
+      line-height: normal;
+  }
+  
+  ul {
+    list-style-type: none;
+    color: #111235;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Hellix;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px; /* 150% */
+    padding: 20px;
+  }
+  
+  h4{
+    color: #111235;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 150% */
+    margin: 20px;
+    margin-right: 50px;
+  }
+  
+  input[type="text"]{
+    width: 255px;
+    height: 40px;
+    padding: 0 10px;
+    color: #111235;
+    font-feature-settings: 'liga' off;
+    font-family: Hellix;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 24px; /* 171.429% */
+    border-radius: 8px;
+    border: none;
+    background-image: url(https://assets.codepen.io/6060109/icon-send.png);
+    background-repeat: no-repeat; 
+    background-position: 225px 11px;
+  }
+  
+  input::placeholder {
+    color: black;
+  }
+  
+  .social-icons{
+    margin: 25px auto;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;  
+  }
+  
+  .box{
+    background-color: rgba(128, 173, 245, .2);
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    padding: 5px 0;
+  }
+  
+  /*All Paragraph Elements in Inside-Container-5*/
+  
+  #fifteen{
+   color: #111235;
+    font-feature-settings: 'liga' off;
+    font-family: Hellix;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 75px; /* 171.429% */
+  }
+  /*All Paragraph Elements End*/
+  
+  .desktop{
+    display:none;
+  }
+  
+  .all-buttons2-desktop{
+    display:none;
+  }
+  
+  .benefit-flex{
+    display:none;
+  }
+  
+  .desktop-footer{
+    display:none;
+  }
+  
+  /*Desktop Section*/
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) { 
+    
+  .entire-container{
+      margin:0;
+      padding:0; 
+      max-width: 1485px;
+      margin: 0 auto;
+  }
+    
+  .panel-1{
+      box-shadow: none;
+      /*margin: 0 10%; */
+   }
+    
+    .panel-1 > #one{
+      display:none;
+  } 
+    
+  .desktop{
+    display:block;
+  }
+    
+  .top-bar {
+    width: 82%;
+    margin: 0 5%;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;     
+  }
+    
+   .top-bar > ul{
+       display: flex;
+       width: 30%;
+       align-items: center;
+       justify-content: space-between;
+  }
+      
+  .inside-container-1{
+     display: flex;
+     align-items: center;
+     flex-direction:row-reverse;
+   }
+    
+  #workout{
+      width: 40%;
+      margin-right: 100px; 
+      padding: 20px 5px 40px;
+  }
+    
+  #one{
+      box-shadow: none;
+      padding: 25px ;
+      width: 50%;
+      font-size: 36px;
+  }
+    
+  #two{
+      font-size: 60px;
+      padding: 5px 0;
+      width: 100%;
+  }
+      
+  #three{
+      text-align:start;
+      margin: 20px 0; 
+      width: 90%;
+  }
+    
+  .textandbutton{
+      padding: 40px 30px;
+      margin: 20px 0 10px;
+      text-align:start;
+  }
+       
+  .inside-container-2{
+      display: flex;
+      align-items:center;
+      padding: 40px 100px; 
+   }
+    
+   .inside-container-2-box{
+      display: flex;
+      flex-direction: column;
+      margin: 0 100px;
+      border-radius: 50px;
+      padding: 10px 30px;
+      width: 490px;
+      height: 350px;
+    }
+    
+    #workout2{
+      margin: 60px 20px 120px;
+      width: 400px;
+    }
+      
+    #four{
+      width: 300px;
+      margin: 30px;
+      padding: 5px;
+    }
+      
+    #five{
+     width: 450px;
+     padding: 10px;
+     }
+      
+     .all-buttons{
+        width: 200px;
+        height:59px;
+    }
+    
+    .inside-container-3{
+      display: flex;
+      align-items:center;
+      justify-content: space-between;
+    }
+    
+  .inside-container-3-box{
+      display: flex;
+      align-items: center;
+      flex-direction:row-reverse;
+      width: 1350px;
+      height: 500px;
+      padding: 20px 0 70px;
+    }
+      
+    #textandbutton2{
+      width: 1440px;
+      height: 455px;
+      margin-right: 10px;
+      padding: 5px;
+      text-align: left;
+   } 
+    
+    #workout3{
+      width: 450px;
+      height: 500px;
+      margin: 45px;
+      margin-bottom: -11px;
+    }
+   
+    #eight{
+       width: 70%;
+       text-align: start;
+    }
+    
+    .btn-secondary{
+      width: 230px;
+      height: 59px;
+      margin-top: 55px;
+    }
+    
+    .inside-container-4{
+      width: 100%;
+      display:flex;
+      flex-direction: row-reverse;
+      align-items:center;
+    }
+    
+    .title{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    } 
+    
+    .inside-container-4-box{
+       width: 100%;
+       display:flex;
+       align-items:center;     
+       margin: 0;
+    }  
+    
+  #workout4{
+    width: 450px;
+    margin: 0 150px;
+    }
+    
+    .benefit-flexbox{
+          width: 100%;
+          box-sizing: border-box;
+          display:flex;
+          flex-direction:row;
+          flex-wrap:wrap;     
+    }
+    
+   #nine{
+      margin-right: 50px;
+  }
+  
+  .all-buttons2{
+      width: 200px;
+      height: 59px;
+  }
+    
+    .inside-container-5{
+      display:none;
+    }
+    
+    #hr-line{
+      display: none;
+    }  
+    
+    .border-bottom{
+        width: 1500px;
+        height: 1px;
+        background: rgba(0, 0, 0, 0.3);
+   }
+    
+    /*Footer Section on Desktop*/
+    
+    .desktop-footer{
+      display:flex;
+      align-items:stretch;
+      justify-content:space-between;
+      width: 1500px;
+      height: 300px;     
+    }
+    
+    .footer1{
+     width: 25%;
+     padding: 50px 0;
+    }
+    
+    #sixteen{
+      color: #111235;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Hellix;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  
+    #fifteen{
+      padding: 90px 0;
+    }
+    
+    .footer2,  .footer3{
+      padding: 40px 0;
+   }
+  
+    .footer4
+   { 
+     padding-top: 10px 0;
+     margin: 15px 0;
+     font-family: Hellix;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     text-align:start;
+     width:30%;
+  }
+    
+   h4{
+      margin:20px 0;
+    }
+    
+    ul > li{
+      line-height: 35px;
+    }
+    
+    .social-icons{
+      display:none;
+    } 
+   
+  }
+  
